@@ -9,7 +9,7 @@ export const useStore = create(
   persist(
     set => ({
       CoffeeList: CoffeeData,
-      BeansList: BeansData,
+      BeanList: BeansData,
       FavoritesList: [],
       CartList: [],
       OrderHistoryList: [],
